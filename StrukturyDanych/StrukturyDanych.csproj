@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helper\ParseTime.cs" />
+    <Compile Include="Lab1\OwnSort.cs" />
     <Compile Include="Lab1\Factorial.cs" />
     <Compile Include="Lab1\Fibonaci.cs" />
     <Compile Include="Program.cs" />
