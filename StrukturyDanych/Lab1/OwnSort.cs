@@ -8,9 +8,9 @@ namespace StrukturyDanych.Lab1
 {
     public class OwnSort
     {
-         public static void BubbleSort(double[] arr)
+         public static void BubbleSort(int[] arr)
          {
-             double t;
+             int t;
              for (var p = 0; p < arr.Length -2; p++)
              {
                  for (var j = 0; j < arr.Length -2; j++)
