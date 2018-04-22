@@ -46,6 +46,7 @@
     <Compile Include="Lab1\OwnSort.cs" />
     <Compile Include="Lab1\Factorial.cs" />
     <Compile Include="Lab1\Fibonaci.cs" />
+    <Compile Include="Lab2\List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

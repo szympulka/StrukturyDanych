@@ -1,8 +1,7 @@
-﻿using System;
+﻿using CsvHelper;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using CsvHelper;
 
 namespace CSV
 {
@@ -26,7 +25,7 @@ namespace CSV
             }
         }
 
-        public void SaveCsv(string path, List<CsvHelper> csv)
+        public void SaveCsv(string path, List<CsvSave> csv)
         {
             using (var streamWriter = File.CreateText(path))
             {
